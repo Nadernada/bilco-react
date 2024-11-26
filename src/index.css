@@ -30,21 +30,21 @@ body {
 
 @font-face {
   font-family: 'Urdwin';
-  src: url('./fonts/URWDINCond-Bold.woff') format('woff');
+  src: url('/fonts/URWDINCond-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham-book';
-  src: url('./fonts/Gotham-Book.woff') format('woff');
+  src: url('/fonts/Gotham-Book.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Gotham-mid';
-  src: url('./fonts/Gotham-Medium.woff') format('woff');
+  src: url('/fonts/Gotham-Medium.woff') format('woff');
   font-weight: 700;
   font-style: normal;
 }
