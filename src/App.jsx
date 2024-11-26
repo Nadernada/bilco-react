@@ -139,7 +139,7 @@ const Home = () => {
             onClick={() => dialogRef.current.close()}
             >X</p>
           </div>
-        <div className="w-full h-full overflow-hidden relative group">
+        <div className="w-full h-full overflow-hidden relative group p-24">
           <div
             className="absolute w-full h-full top-0 left-0 group-hover:opacity-100 opacity-0 transition-all duration-300 delay-200 bg-slate-950/30 flex justify-center items-center cursor-pointer z-30"
             onClick={() => {
@@ -158,7 +158,7 @@ const Home = () => {
               )
             }
           </div>
-          <video src="/images/hero-video.mp4" className="object-cover !max-w-none" autoPlay muted loop playsInline ref={videoRef}></video>
+          <video src="/images/hero-video.mp4" className="object-contain" autoPlay loop playsInline ref={videoRef}></video>
         </div>
       </dialog>
       <div className="w-screen relative h-svh overflow-hidden">
@@ -248,6 +248,8 @@ const Home = () => {
 
           <p className={`font-[Gotham-book] text-[#f3f3f6] text-xl text-left fade-up-footer hidden lg:flex`}>© 2024 Bilco Corporation  |  All Rights Reserved  | <span className="underline ms-2"><a href={'https://bilcobrick.com/wp-content/uploads/2017/03/Bilco-TermsOfUse-201703.pdf'} target="_blank"> Terms of Use</a></span></p>
           <p className={`font-[Gotham-book] text-[#f3f3f6] text-xl leading-8 text-left fade-up-footer block  lg:hidden`}>© 2024 Bilco Corporation  <br />  All Rights Reserved  <br /> <span className="underline">Terms of Use</span></p>
+
+          <img src="/images/footer-bricks-mobile.png" className="w-full h-auto" />
 
 
         </div>

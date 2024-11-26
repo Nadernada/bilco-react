@@ -275,11 +275,16 @@ useEffect(() => {
 
         <div className="flex flex-col justify-center items-center gap-y-2">
           <div className="border border-[#f3f3f6] rounded-full ps-4 pe-6 py-3 relative h-fit flex flex-row gap-x-3 lg:gap-x-9 justify-between">
+            <div className="px-2 w-1/3 lg:w-[130px] flex flex-row">
+              <span className="text-[#969696]">#</span>
             <HexColorInput
               color={color}
               onChange={setColor}
-              className="px-2 bg-transparent rounded-lg placeholder:text-[#969696] text-[#969696] w-1/3 lg:w-[130px] uppercase colorInput"
-            />
+              prefix="#"
+              type="text"
+              className=" bg-transparent rounded-lg placeholder:text-[#969696] text-[#969696] uppercase colorInput"
+              />
+              </div>
             <div className="flex flex-row gap-x-4 cursor-pointer" >
               <p className="text-base text-[#f3f3f6] uppercase">Select a color</p>
               <PopoverPicker color={color} onChange={setColor} />
