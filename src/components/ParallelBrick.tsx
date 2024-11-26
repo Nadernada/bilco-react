@@ -11,7 +11,7 @@ gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 const ParallelBrick = ({ font }) => {
   const brickCutRef = useRef(null);
-  const brickSectionRef = useRef(null);
+  const brick2SectionRef = useRef(null);
 
   useGSAP(
     () => {
@@ -19,7 +19,7 @@ const ParallelBrick = ({ font }) => {
         y: 60,
         x: 80,
         scrollTrigger: {
-          trigger: brickSectionRef.current,
+          trigger: brick2SectionRef.current,
           start: 'top bottom',
           end: '90% top',
           scrub: true,
@@ -42,7 +42,7 @@ const ParallelBrick = ({ font }) => {
 
 
   return (
-    <div className="mt-0 lg:my-72 flex flex-col md:flex-row justify-start items-center" ref={brickSectionRef}>
+    <div className="mt-0 lg:my-72 flex flex-col md:flex-row justify-start items-center brick-section" ref={brick2SectionRef}>
       <div className="w-full lg:w-1/2 relative">
         <img src="/images/brick-cut2.png" alt="brick-img" width={500} height={200} className="absolute bottom-[10px] left-0 w-[65vw] lg:w-[32vw]" />
         <img src="/images/brick-cut2.png" alt="brick-img" width={500} height={300} className="opacity-0" />

@@ -249,7 +249,7 @@ const Home = () => {
           <p className={`font-[Gotham-book] text-[#f3f3f6] text-xl text-left fade-up-footer hidden lg:flex`}>© 2024 Bilco Corporation  |  All Rights Reserved  | <span className="underline ms-2"><a href={'https://bilcobrick.com/wp-content/uploads/2017/03/Bilco-TermsOfUse-201703.pdf'} target="_blank"> Terms of Use</a></span></p>
           <p className={`font-[Gotham-book] text-[#f3f3f6] text-xl leading-8 text-left fade-up-footer block  lg:hidden`}>© 2024 Bilco Corporation  <br />  All Rights Reserved  <br /> <span className="underline">Terms of Use</span></p>
 
-          <img src="/images/footer-bricks-mobile.png" className="w-full h-auto" />
+          <img src="/images/footer-bricks-mobile.png" className="w-full h-auto hidden lg:block" />
 
 
         </div>
