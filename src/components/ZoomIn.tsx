@@ -47,7 +47,7 @@ const ZoomIn = ({ font }) => {
             scrub: true,
             pin: true,
             pinSpacing: true,
-            markers: true, // Enable markers for debugging
+            // markers: true, // Enable markers for debugging
           },
         });
 
